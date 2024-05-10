@@ -1,11 +1,35 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
+  background-color: #12101d;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  margin-bottom: 50px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images\prague-hero.png);
+    url(../images/prague-hero.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+header a {
+  padding: 20px;
+  margin-bottom: 100px;
+  background-color: white;
+  color: #12101d;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.container {
+  margin: 30px;
 }
