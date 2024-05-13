@@ -5,7 +5,7 @@ body {
   color: white;
 }
 h1 {
-  font-size: 50px;
+  font-size: 80px;
 }
 h2 {
   margin-bottom: 50px;
@@ -29,7 +29,23 @@ header a {
   border-radius: 10px;
   font-weight: bold;
 }
+a {
+  color: gray;
+}
 
 .container {
   margin: 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  header a {
+    font-size: 13px;
+  }
 }
