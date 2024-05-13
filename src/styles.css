@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  background-color: #12101d;
+  background-color: rgba(18, 16, 29, 1);
   color: white;
 }
 h1 {
@@ -24,20 +24,45 @@ header a {
   padding: 20px;
   margin-bottom: 100px;
   background-color: white;
-  color: #12101d;
+  color: #272044;
   text-decoration: none;
   border-radius: 10px;
   font-weight: bold;
 }
 a {
-  color: gray;
+  color: white;
+  opacity: 0.7;
 }
 
 .container {
   margin: 30px;
 }
+.grid-container {
+  margin: 20px;
+  background-image: linear-gradient(
+      rgba(18, 16, 29, 0.6),
+      rgba(18, 16, 29, 0.6)
+    ),
+    url(../images/prague-footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 10px 50px;
+}
+.col {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  text-align: left;
+  grid-gap: 30px;
+  padding: 20px;
+}
+.footer-paragraphs {
+  color: white;
+  opacity: 0.7;
+}
 
-@media (max-width: 900px) {
+@media (max-width: 975px) {
   h1 {
     font-size: 50px;
   }
