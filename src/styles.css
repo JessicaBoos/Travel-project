@@ -88,6 +88,10 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
+.two-one-fr {
+  grid-template-columns: 3fr 4fr;
+}
+
 .section-grid h2 {
   opacity: 0.7;
 }
@@ -148,7 +152,14 @@ img {
   object-fit: cover;
   border-radius: 0;
 }
+.center {
+  min-height: 100px;
+  max-height: 400px;
+}
 
+.prague-img {
+  max-height: 500px;
+}
 @media (max-width: 975px) {
   h1 {
     font-size: 50px;
@@ -172,5 +183,11 @@ img {
 
   .embed {
     display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .section-grid h2 {
+    padding-top: 150px;
   }
 }
