@@ -108,27 +108,6 @@ img {
   grid-gap: 0;
 }
 
-@media (max-width: 975px) {
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-
-  header a {
-    font-size: 13px;
-  }
-
-  .section-grid,
-  .col,
-  .grid,
-  .grid-3-columns,
-  .card {
-    grid-template-columns: 1fr;
-  }
-}
-
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -158,4 +137,40 @@ img {
 .grid {
   display: grid;
   grid-gap: 64px;
+}
+
+.grid-restaurant {
+  display: grid;
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+@media (max-width: 975px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  header a {
+    font-size: 13px;
+  }
+
+  .section-grid,
+  .col,
+  .grid,
+  .grid-restaurant,
+  .grid-3-columns,
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .embed {
+    display: none;
+  }
 }
